@@ -5,19 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="Profile Card" content="This page serves as a profile card for Nolan Townsend." />
   <meta name="Nolan Townsend" content="Nolan" />
-  <title>Nolan's Profile</title>
+  <title>Nolan's Profile Card</title>
 
   <!-- Favicon and styles -->
   <link rel="icon" href="favicon.ico" />
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="profile">
-    <header>
-      <h1>Nolan Townsend</h1>
-      <h2>Frontend Engineer</h2>
-    </header>
-    <p class="bio">Hi — I'm Nolan, a software engineer who builds accessible, responsive web interfaces. I enjoy designing intuitive experiences and improving front-end performance.</p>
+    <div class="card">
+      <header>
+        <img src="img/personal_pic.jpeg" alt="Nolan Townsend" class="avatar" />
+        <h1>Nolan Townsend</h1>
+        <h2>Frontend Engineer</h2>
+      </header>
+        <p class="bio">Hi — I'm Nolan, a software engineer who builds accessible, responsive web interfaces. I enjoy designing intuitive experiences and improving front-end performance.</p>
+
+        <h3> My Favorite Websites</h3>
+        <ul class="links">
+          <li><a href="https://webapp4.asu.edu/myasu/" target="_blank" rel="noopener noreferrer">MyASU</a></li>
+          <li><a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">Google Gemini</a></li>
+          <li><a href="https://www.espn.com/" target="_blank" rel="noopener noreferrer">ESPN</a></li>
+          <li><a href="https://www.chess.com/game/live/145523587208" target="_blank" rel="noopener noreferrer">Chess.com</a></li>
+        </ul>
+    </div>
   </main>
 </body>
 </html>
